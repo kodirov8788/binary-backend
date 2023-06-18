@@ -4,7 +4,8 @@ const router = require("express").Router()
 const User = mongoose.model('User', {
     name: String,
     lastname: String,
-    age: Number
+    number: Number,
+    info: String
 });
 
 
